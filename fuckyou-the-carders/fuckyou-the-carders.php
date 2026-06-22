@@ -64,19 +64,6 @@ add_action('rest_api_init', 'disable_wc_endpoint');
 
 
 
-/*
-function redirect_forbidden_access(){
-    $current_endpoint = WC()->query->get_current_endpoint();
-    if($current_endpoint == "payment-methods" 
-      || $current_endpoint == "add-payment-method"
-      || $current_endpoint == "edit-payment-method" 
-      || $current_endpoint == "checkout")
-    {
-        wp_redirect(wc_get_account_endpoint_url('dashboard'));
-    }
-}
-add_action('wp', 'redirect_forbidden_access');
-*/ 
 
 
 ?>
