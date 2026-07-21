@@ -1,4 +1,4 @@
-<? 
+<?php
 
 /**
  * Plugin Name: Fuck you the carders
